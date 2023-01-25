@@ -1,0 +1,36 @@
+.searchForm{
+    margin-bottom: 20px;
+}
+
+.formLabel{
+    display: block;
+    position: relative;
+    width: 289px;
+    height: 46px;
+}
+.formInput{
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+    border: 1px solid rgba(45, 45, 45, 0.5);
+    padding-left: 15px;
+    
+}
+
+.formInput::placeholder{
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0.272728px;
+color: #2D2D2D;
+opacity: 0.2;
+padding-left: 15px;
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+    color: rgba(45, 45, 45, 0.5);
+    position: absolute;
+    right: 14px;
+    bottom: 12px;
+}

@@ -1,0 +1,163 @@
+.cardContainer{
+    width: 350px;
+    height: 235px;
+    margin-bottom: 27px;
+}
+
+@media screen and (min-width: 790px) {
+    .cardContainer{
+        margin-bottom: 0;
+    }
+}
+
+.nameContainer{
+    background: #F6F9FA;
+    padding: 20px 0 20px 19px;
+}
+
+.customerName{
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0.272728px;
+color: #2D2D2D;
+margin: 0;
+margin-bottom: 4px;
+white-space: nowrap;
+overflow: hidden; 
+text-overflow: ellipsis;
+}
+
+.projectId{
+font-weight: 400;
+font-size: 12px;
+line-height: 12px;
+letter-spacing: 0.272728px;
+color: #2D2D2D;
+opacity: 0.5;
+margin: 0;
+}
+
+.dataContainer{
+border: 1px solid #DDEDF4;
+border-width: 0 1px 1px 1px;
+border-radius: 9px;
+padding-bottom: 20px;
+
+}
+
+.address{
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0.272728px;
+color: #2D2D2D;
+margin: 10px 0 20px 20px;
+white-space: nowrap;
+overflow: hidden; 
+text-overflow: ellipsis;
+}
+
+.roomsContainer{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+
+}
+
+.room{
+font-weight: 400;
+font-size: 12px;
+line-height: 20px;
+letter-spacing: 0.272728px;
+color: #3CB2E4;
+background: rgba(60, 178, 228, 0.1);
+border-radius: 6px;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 10px;
+margin: 0 3px 20px 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.title{
+font-weight: 400;
+font-size: 12px;
+line-height: 12px;
+letter-spacing: 0.272728px;
+color: #9F9F9F;
+margin: 0;
+}
+
+.time{
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0.272728px;
+color: #2D2D2D;
+margin-top: 8px;
+}
+
+.price{
+font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0.272728px;
+color: #2D2D2D;
+margin-top: 8px;
+}
+
+.stage{
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0.272728px;
+border-radius: 50px;
+display: flex;
+flex-direction: row;
+padding: 2px 10px;
+margin-top: 5px;
+margin-left: -10px;
+}
+
+.stageProgress{
+composes: stage;
+color: #2D2D2D;
+background: #F6F9FA;
+}
+
+.stageDone{
+ composes: stage;
+ background: #EBFCEC;
+ color:#30D869;
+
+}
+
+.stageCancelled{
+    composes: stage;
+    background: #EBF7FC;
+    color: #3CB2E4; 
+    font-weight: 700;
+}
+
+.stageNegotiation{
+    composes: stage;
+    background: #FAEEE8;
+    color: #E4783C;
+}
+
+.untitledUser{
+font-weight: 300;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0.272728px;
+color: #2D2D2D;
+margin-bottom: 4px;
+}
