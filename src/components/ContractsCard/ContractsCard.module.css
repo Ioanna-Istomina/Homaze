@@ -1,11 +1,12 @@
 .cardContainer{
-    width: 350px;
+    width: 315px;
     height: 235px;
     margin-bottom: 27px;
 }
 
 @media screen and (min-width: 790px) {
     .cardContainer{
+        width: 350px;
         margin-bottom: 0;
     }
 }
