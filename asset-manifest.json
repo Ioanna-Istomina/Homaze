@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Homaze/static/css/main.280bb781.css",
+    "main.css": "/Homaze/static/css/main.b48162a2.css",
     "main.js": "/Homaze/static/js/main.b2e89149.js",
     "index.html": "/Homaze/index.html",
-    "main.280bb781.css.map": "/Homaze/static/css/main.280bb781.css.map",
+    "main.b48162a2.css.map": "/Homaze/static/css/main.b48162a2.css.map",
     "main.b2e89149.js.map": "/Homaze/static/js/main.b2e89149.js.map"
   },
   "entrypoints": [
-    "static/css/main.280bb781.css",
+    "static/css/main.b48162a2.css",
     "static/js/main.b2e89149.js"
   ]
 }
